@@ -7,10 +7,10 @@ to get a better feel of what InertiaJS offers.
 
 ## Installation
 
-`box install`
-`npm install`
-`npm run dev`
-`box server start`
++ `box install`
++ `npm install`
++ `npm run dev`
++ `box server start`
 
 ## Usage
 
