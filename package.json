@@ -1,0 +1,31 @@
+{
+    "name": "inertia-coldbox",
+    "version": "1.0.0",
+    "description": "An advanced template with all the bells and whistles in script format",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib",
+        "test": "tests"
+    },
+    "scripts": {
+        "dev": "webpack --hide-modules",
+        "watch": "npm run dev -- --watch",
+        "prod": "npm run dev -- -p"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+        "coldbox-elixir": "^3.0.0",
+        "inertia": "git+https://github.com/inertiajs/inertia.git",
+        "inertia-vue": "git+https://github.com/inertiajs/inertia-vue.git",
+        "vue": "^2.6.10"
+    },
+    "devDependencies": {
+        "@babel/plugin-syntax-jsx": "^7.2.0",
+        "babel-helper-vue-jsx-merge-props": "^2.0.3",
+        "babel-plugin-transform-vue-jsx": "^4.0.1",
+        "vue-loader": "^15.7.0",
+        "vue-template-compiler": "^2.6.10"
+    }
+}

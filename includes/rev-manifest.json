@@ -1,0 +1,8 @@
+{
+  "includes/js/app.js": "/includes/js/app.js",
+  "includes/js/app0.js": "/includes/js/app0.js",
+  "includes/js/app2.js": "/includes/js/app2.js",
+  "includes/js/app4.js": "/includes/js/app4.js",
+  "includes/js/runtime.js": "/includes/js/runtime.js",
+  "includes/js/vendor.js": "/includes/js/vendor.js"
+}
