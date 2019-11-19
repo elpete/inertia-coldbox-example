@@ -4,11 +4,13 @@
     "author":"Eric Peterson",
     "installPaths":{
         "coldbox":"coldbox/",
-        "vue-helpers":"modules/vue-helpers/"
+        "vue-helpers":"modules/vue-helpers/",
+        "cbInertia":"modules/cbInertia/"
     },
     "dependencies":{
         "coldbox":"be",
-        "vue-helpers":"^1.0.2"
+        "vue-helpers":"^1.0.2",
+        "cbInertia":"folder:/home/elpete/code/github/elpete/cbInertia/"
     },
     "scripts":{}
 }

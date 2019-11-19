@@ -13,17 +13,12 @@
 </template>
 
 <script>
-import { InertiaLink } from "inertia-vue";
-
 export default {
     props: {
         title: {
             type: String,
             default: "ColdBox Inertia"
         }
-    },
-    components: {
-        InertiaLink
     },
     watch: {
         title(newTitle) {

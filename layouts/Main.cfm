@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Inertia ColdBox Test</title>
-    <link href="#html.elixirPath( "css/app.css" )#" rel="stylesheet">
 </head>
 <body>
     <div class="container">

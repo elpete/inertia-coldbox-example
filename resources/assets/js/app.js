@@ -1,19 +1,20 @@
-import Inertia from "inertia-vue";
+import { InertiaApp } from '@inertiajs/inertia-vue'
 import Vue from "vue";
 
-const appEl = document.getElementById("app");
+Vue.use(InertiaApp)
 
-const app = new Vue({
+const app = document.getElementById("app");
+
+new Vue({
     render: h =>
-        h(Inertia, {
+        h(InertiaApp, {
             props: {
-                component: appEl.dataset.component,
-                props: JSON.parse(appEl.dataset.props),
-                resolveComponent: component => {
-                    return import(/* webpackChunkName: "includes/js/app" */ `@/Pages/${component}`).then(
+                initialPage: JSON.parse(app.dataset.page),
+                resolveComponent: name => {
+                    return import(/* webpackChunkName: "includes/js/app" */ `@/Pages/${name}`).then(
                         module => module.default
                     );
                 }
             }
         })
-}).$mount(appEl);
+}).$mount(app);
